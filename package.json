@@ -1,0 +1,36 @@
+{
+  "name": "eat-da-burger",
+  "version": "1.0.0",
+  "description": "a burger eating app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leelandmiller/eat-da-burger.git"
+  },
+  "keywords": [
+    "burgers",
+    "node",
+    "mysql",
+    "express",
+    "handlebars"
+  ],
+  "author": "leelandmiller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leelandmiller/eat-da-burger/issues"
+  },
+  "homepage": "https://github.com/leelandmiller/eat-da-burger#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bulma": "^0.4.4",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "jquery": "^3.2.1",
+    "method-override": "^2.3.9",
+    "mysql": "^2.13.0"
+  }
+}
